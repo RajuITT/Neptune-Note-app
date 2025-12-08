@@ -1,0 +1,13 @@
+// Get Binding Context
+
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext();
+
+
+
+// Get entire model
+const data = context.getObject();
+
+modelSimpleFormWizard.setData(data);
+
+App.to(NoteForm);

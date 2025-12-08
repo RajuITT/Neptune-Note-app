@@ -1,0 +1,77 @@
+{
+	"id": "2f7e8b16-5590-4a19-bfaa-a7d83719cf72",
+	"createdAt": "2025-11-25T09:01:58.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/RajuITT/Neptune-Note-app.git",
+		"branch": "NOTE-CRUD"
+	},
+	"name": "notes.app",
+	"description": "Package for Notes App",
+	"ver": "25.12.08.1716",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": true,
+	"roles": [],
+	"apps": [
+		{
+			"id": "5907926c-8da0-484f-8c2f-2660ea019753",
+			"application": "notes_app2",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "a533b6d0-b565-45d9-a2bb-1f6675740a58",
+			"name": "Note_api2",
+			"description": "Stores Notes for my Note App",
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "be6cba66-d86d-4fca-ba9b-0e21d0cfdd43",
+			"name": "notes",
+			"description": "Stores Notes for my Note App"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "41144efb-cd7b-4df1-acd4-45268581ea96",
+			"name": "NOTES_CONNECTOR",
+			"description": "Connector for NOTES table CRUD"
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": []
+}

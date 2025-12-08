@@ -1,0 +1,61 @@
+{
+	"id": "be6cba66-d86d-4fca-ba9b-0e21d0cfdd43",
+	"createdAt": "2025-12-03T04:40:12.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "2c9e4048-687f-42db-de45-446491305abd",
+			"fieldName": "NOTE_ID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Kind of 2nd PK for Notes",
+			"isNullable": true
+		},
+		{
+			"id": "7334844c-d82c-4ff2-f2e1-dac4a476d2bf",
+			"fieldName": "TITLE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5c1bd261-975a-49f3-8c05-15e2f4f94d7c",
+			"fieldName": "CONTENT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5f660f06-4cd9-4829-ee0e-3f6f551e0e12",
+			"fieldName": "CREATED_AT",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d8097c8f-1ca5-4b00-ee59-89297e402f16",
+			"fieldName": "UPDATED_AT",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "966f3433-380d-4aae-eba9-b8ce3423812f",
+			"fieldName": "CATEGORY",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "notes",
+	"description": "Stores Notes for my Note App",
+	"ver": "25.12.03.1020",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "2f7e8b16-5590-4a19-bfaa-a7d83719cf72",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

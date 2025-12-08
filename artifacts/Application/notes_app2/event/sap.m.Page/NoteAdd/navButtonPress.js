@@ -1,0 +1,2 @@
+apiRestAPIGET();
+App.backToPage(NoteList);

@@ -1,0 +1,17 @@
+{
+	"id": "41144efb-cd7b-4df1-acd4-45268581ea96",
+	"createdAt": "2025-11-25T09:14:54.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "42c532a0-83f9-4030-b31c-dd1863eae5e5"
+	},
+	"documentation": {},
+	"name": "NOTES_CONNECTOR",
+	"description": "Connector for NOTES table CRUD",
+	"group": null,
+	"type": "T",
+	"ver": "25.11.25.1444",
+	"disabled": false,
+	"package": "2f7e8b16-5590-4a19-bfaa-a7d83719cf72"
+}
