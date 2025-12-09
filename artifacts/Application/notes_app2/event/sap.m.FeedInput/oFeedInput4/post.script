@@ -1,4 +1,0 @@
-var postMessage = oFeedInput1.getValue();
-
-// Use MessageToast
-sap.m.MessageToast.show("Post Message:  " + postMessage );

@@ -1,3 +1,0 @@
-inForgotUsername.setValue();
-inForgotUsername.setValueState();
-logonScreen.showForm(`forgotPassword`);

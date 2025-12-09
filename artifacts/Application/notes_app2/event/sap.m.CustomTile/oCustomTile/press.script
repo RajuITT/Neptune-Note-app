@@ -1,3 +1,0 @@
-oCustomTile.setContent(genTile1);
-
-// Use Custom tile to display Application specific content in the tile control

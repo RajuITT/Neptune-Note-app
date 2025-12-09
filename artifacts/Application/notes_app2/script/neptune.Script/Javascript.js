@@ -47,9 +47,6 @@ function updateNotes(){
    final_data.TITLE      = inSimpleFormWizardTITLE.getValue();
     final_data.CONTENT    = inSimpleFormWizardCONTENT.getValue();
 
-    final_data.CREATED_AT = inSimpleFormWizardCREATED_AT.getValue();
-    final_data.UPDATED_AT = inSimpleFormWizardUPDATED_AT.getValue();
-
     var options = {
         data: final_data
     };
@@ -75,25 +72,11 @@ function addNotes() {
     apiRestAPIAdd(options);
 }
 
-// function deleteNotes() {
-
-//     let final_data = {};
-
-//     // Only ID is required for deleting
-//     final_data.id = modelSimpleFormWizard.getData().id;
-
-//     var options = {
-//         data: final_data
-//     };
-
-//     // Call your DELETE connector API
-//     apiRestAPIDelete(options);
-// }
 
 
 function deleteNotes() {
 
-    let uuid = modelSimpleFormWizard.getData().id; // MUST BE UUID
+    let uuid = modelSimpleFormWizard.getData().id;
 
     var options = {
         parameters: {
@@ -102,4 +85,6 @@ function deleteNotes() {
     };
 
     apiRestAPIDelete(options);
+    apiRestAPIGET();
+     App.to(NoteList);
 }
