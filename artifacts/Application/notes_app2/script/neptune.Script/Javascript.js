@@ -90,13 +90,14 @@ function addNotes() {
 //     apiRestAPIDelete(options);
 // }
 
+
 function deleteNotes() {
 
     let uuid = modelSimpleFormWizard.getData().id; // MUST BE UUID
 
     var options = {
         parameters: {
-            where: "id:eq:" + uuid
+           where: JSON.stringify ({"id" : `${uuid}` })
         }
     };
 
