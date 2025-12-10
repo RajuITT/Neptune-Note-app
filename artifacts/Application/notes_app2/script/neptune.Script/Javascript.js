@@ -1,27 +1,26 @@
 function submitFormDetails() {
-    // Reset previous states
+    
     title.setValueState("None");
     notearea.setValueState("None");
 
-    // Read values
+
     var tit = title.getValue().trim();
     var area  = notearea.getValue().trim();
 
-    // Validate First Name
+
     if (!tit) {
         title.setValueState("Error");
         sap.m.MessageToast.show("Please provide a Title");
         return;
     }
 
-    // Validate Last Name
     if (!area) {
         notearea.setValueState("Error");
         sap.m.MessageToast.show("Please provide a Note");
         return;
     }
 
-    // If everything is valid
+
     sap.m.MessageToast.show("Form successfully submitted");
 
     title.setValue("");
@@ -29,8 +28,6 @@ function submitFormDetails() {
 
     App.to(NoteView);
 
-    // Optional: You can call another function here  
-    // saveToTable(tit, area);
 }
 
 function updateNotes(){
@@ -88,3 +85,4 @@ function deleteNotes() {
     apiRestAPIGET();
      App.to(NoteList);
 }
+
